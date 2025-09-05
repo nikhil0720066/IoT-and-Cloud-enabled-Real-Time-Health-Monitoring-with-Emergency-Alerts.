@@ -1,0 +1,2 @@
+# IoT-and-Cloud-enabled-Real-Time-Health-Monitoring-with-Emergency-Alerts.
+This Python code retrieves heart rate and SpO₂ readings from Google Fit, stores them to CSV and Azure Cosmos DB, and monitors against safe limits (SpO₂ ≥ 90%, heart rate ≤ 50 bpm). If critical, it issues Twilio SMS notifications with reading, time, and a Google Maps link to nearby hospitals to facilitate timely caregiver alert.
